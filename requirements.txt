@@ -1,0 +1,19 @@
+numpy
+pandas
+matplotlib
+seaborn
+networkx
+scikit-learn
+tqdm
+zstandard
+
+# Torch + PyG. For local CUDA installs, use the appropriate index URL:
+#   pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/cu126
+# Colab and CPU-only environments install the default wheels with `pip install torch`.
+torch>=2.0
+torch_geometric>=2.4
+
+# Notebook
+jupyter
+ipykernel
+gdown>=5.0
